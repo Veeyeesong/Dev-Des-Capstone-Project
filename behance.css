@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.025px;
+}
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    position: relative;
+    
+}
+
+
+.side-bar-container{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+    border-right: 1px solid #e3e3e3;
+    padding: 0 1rem 0 1rem;
+    background-color: #FAF9F7;
+}
+
+
+.logo-container{
+    padding-top: 1.5rem;
+}
+
+
+.search-and-icon-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+
+
+.search-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.75rem;
+    background-color: #F0EFED;
+
+}
+
+
+.icon-and-f-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+    background-color: white;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 0.5rem;
+}
+
+
+.search-icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.search-icon-container i{
+    font-size: 1.2rem;
+    color: #A3A2A0;
+}
+
+
+.search-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.search-text-container p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #A3A2A0;
+    
+}
+
+
+.f-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.f-text-container p{
+    color: #A3A2A0;
+}
+
+
+.main-menu-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+
+.main-menu-text{
+    width: fit-content;
+    height: auto;
+    color: #878684;
+    font-size: 0.85rem;
+}
+
+
+.home-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem;
+}
+
+
+.project-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem;
+}
+
+
+.calendar-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem;
+}
+
+
+
+.team-member-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem;  
+}
+
+
+
+.analytics-member-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem; 
+}
+
+
+.wallet-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem;
+}
+
+
+.Tasks-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem;  
+}
+
+
+.Mail-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem; 
+}
+
+.img-icon{
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+
+
+.main-menu-container p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #878684;
+}
+
+
+.Tasks-container{
+    background-color: rgba(0, 0, 255, 0.1);
+    padding: 1rem;
+    border-radius:0.75rem ;
+}
+
+.Tasks-icon-container img{
+    filter: invert(20%) sepia(47%) saturate(4440%) hue-rotate(227deg) brightness(89%) contrast(98%);
+}
+
+.tasks-text-container p{
+    color: #5a58bd;
+}
+
+.label-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.label-text-container{
+    width: fit-content;
+    height: auto;
+    color: #878684;
+    font-size: 0.85rem;
+}
+
+
+.marketing-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem; 
+}
+
+.development-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem; 
+}
+
+
+.Design-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem; 
+}
+
+.three-d-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+    padding-left: 0.85rem; 
+}
+
+
+
+.elipse{
+    width: 20px;
+    height: 20px;  
+}
+
+.label-container p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #878684;
+}
+
+
+.nav-bar{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #FAF9F7;
+    
+}
+
+
+.nav-task-container{
+    width: fit-content;
+    height: auto;
+    padding: 2rem 1rem;
+}
+
+.nav-task-container P{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.add-task-profile{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+
+.add-task-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid #5a58bd;
+    padding: 0.85rem 1.5rem;
+    border-radius:0.75rem ;
+}
+
+
+.add-task-icon img{
+    filter: invert(20%) sepia(47%) saturate(4440%) hue-rotate(227deg) brightness(89%) contrast(98%);
+}
+
+
+.add-task-text-container p{
+    color: #5a58bd;
+    font-weight: 600;
+}
+
+
+.notification-container{
+    width: fit-content;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+.notification-container img{
+    width: 35px;
+    height: 35%;
+}
+
+.profile-container{
+    width: fit-content;
+    height: auto;
+}
+
+.profile-container img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+.second-nav-bar{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+
+
+}
+
+.left-child-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 4rem;
+    
+}
+
+.left-child-container div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+
+.right-child-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 4rem;
+    padding: 2rem;
+}
+
+.right-child-container div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.column-board-container{
+    
+   padding: 2rem 1rem 2rem 1rem;
+}
+
+.column-icon-container img{
+    filter: invert(20%) sepia(47%) saturate(4440%) hue-rotate(227deg) brightness(89%) contrast(98%);
+}
+
+
+.board-container p{
+    color: #5a58bd;
+    font-weight: 600;
+}
+
+.table-text-container p, .nav-calendar-text p{
+    color: #878684;
+    font-weight: 500;
+}
+
+
+.second-main-container{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.second-first-child{
+    width: 27%;
+    height: auto;
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    padding-left: 2rem;
+
+    
+}
+
+.to-do-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D2C3D6;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.todo p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.todo i{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10000rem;
+}
+
+.first-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border: 1px solid #e3e3e3;
+    margin-top: 2rem;
+    padding: 1.2rem;
+}
+
+.design-icon-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem 1rem 0;
+}
+
+.design p{
+    color: #EF790D;
+    font-weight: 600;
+}
