@@ -964,3 +964,16 @@
     color: #6FDBF1;
     font-weight: 600;
 }
+
+.done-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E2F5D7;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+}
+    
