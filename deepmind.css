@@ -256,8 +256,8 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding: 4rem 8rem 4rem 8rem;
-    row-gap: 1rem;
+    padding: 2rem ;
+    
 }
 
 .first-child-container{
@@ -267,7 +267,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding-left: 4rem;
+    margin-top: 2rem;
 }
 
 .latest-and-text-container{
@@ -275,7 +276,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
+    
     
 }
 
@@ -331,9 +332,11 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: start;
-    column-gap: 4rem;
+    column-gap: 5rem;
+    padding: 1rem;
+    
     
     
 }
@@ -429,6 +432,15 @@
     
 }
 
+.first-icon-container{
+    width: fit-content;
+    height: auto; 
+}
+
+.first-icon-container i{
+    color: #1a73e8;
+}
+
 .november-text-container{
     width: fit-content;
     height: auto;
@@ -488,6 +500,49 @@
 } 
 
 
+.thirds-card{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.3rem;
+    border: 1px solid #e9eaec;
+    border-radius: 1rem; 
+}
+
+.heads-text{
+    width: fit-content;
+    height: auto;
+}
+
+.heads-text h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #202124;
+}
+
+.thirds-paragraph-text{
+    width: fit-content;
+    height: auto;
+}
+
+.thirds-paragraph-text p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #5f6368
+}
+
+
+.thirds-card:hover{
+    box-shadow:rgba(0, 0, 0, 0.1) 0 2px 5px;
+}
+
+
+.thirds-card:active{
+    box-shadow: rgb(26, 115, 232) 0px 0px 0px 2px;
+} 
 
 .third-section{
     width: 90vw;
@@ -1127,6 +1182,7 @@ img{
     justify-content: start;
     align-items: start;
     margin-top: 4rem;
+    
 }
 
 .first-child{
@@ -1139,7 +1195,7 @@ img{
     padding: 4rem 4rem 4rem ;
     column-gap: 2rem;
     border-bottom: 1px solid #e9eaec;
-    margin-left: 4rem;
+    
     
 }
 
@@ -1184,7 +1240,7 @@ img{
     padding-bottom: 4rem;
     padding-right: 8rem;
     border-bottom: 1px solid #e9eaec;
-    margin-left: 4rem;
+    padding-left: 4rem;
     
     
 }
@@ -1298,6 +1354,12 @@ input{
 }
 
 
+.button-container{
+    width:fit-content;
+    height: auto;
+    
+}
+
 button{
     width:fit-content;
     height: auto;
@@ -1308,9 +1370,22 @@ button{
     font-size: 1rem;
     color: #1a73e8;
     font-weight: 500;
-    border:1px solid #202124
+    border:1px solid #202124;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    
 }
 
+
+button:hover{
+    box-shadow: rgb(26, 115, 232) 0px 0px 0px 2px;
+    
+}
+
+button:hover p{
+    box-shadow: #174ea6;
+    
+}
 
 .last-child{
     width: 50%;
