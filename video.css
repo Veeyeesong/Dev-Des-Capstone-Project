@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+
+body{
+    background-color: #000;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+
+/* video grid section */
+.video-grid-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.video{
+     background-color: #1b1c1e;
+     border-radius: 0.5rem;
+     position: relative;
+     overflow: hidden;
+     width: 34%;
+     height: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-shrink: 0;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.mic-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.3rem;
+    border-radius: 50px;
+}
+
+
+/* controls section */
+.controls-section{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    column-gap: 1rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.meeting-info{
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+
+.time, .meeting-link{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+/* call controls */
+.control-group{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.control-button{
+    background-color: #383838;
+    color: white;
+    border: none;
+    padding: 1.8rem 2rem;
+    border-radius: 50px;
+
+}
+
+.arrow{
+    font-size: 0.8rem;
+    margin-left: 0.313rem;
+}
+
+.icons{
+    font-size: 1.5rem;
+    margin-left: 0.313rem;
+}
+
+.end-call{
+    font-size: 1.5rem;
+    margin-left: 0.313rem;
+    
+}
+
+
+.end-calll{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1.8rem 2rem;
+    border-radius: 50px;  
+}
+
+
+
+/* meeting actions */
+.meeting-actions{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+
+.action-button{
+    background-color:#1b1c1e;
+    color: white;
+    border: none;
+    padding: 1.8rem 2rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+
+}
+
+
+.footer{
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+/* responsive design */
+@media (max-width: 768px) {
+    .header{
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+
+    .video{
+        width: calc(50% - 1rem);
+        height: 150px;
+    }
+
+    .control-button,  .end-calll{
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+
+    .action-button{
+        display: none;
+    }
+
+
+    .arrow{
+        display: none;
+    }
+
+
+    .info{
+        display: none;
+    }
+  
+}
+
+
+@media(max-width: 480px){
+    .video{
+        width: calc(100% - 1rem);
+        height: 150px;
+    }
+
+    .control-button,  .end-calll{
+        padding: 0.7rem 0.7rem;
+        
+    }
+
+    .icons, .end-call{
+        font-size: 0.9rem;
+        
+    }
+}
+
+
+
